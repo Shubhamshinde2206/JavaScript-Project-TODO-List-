@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList</title>
+    <!-- Bootrastrap CSS link-->
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Todolist/style.css">
+</head>
+
+<body>
+     <div class="container">
+        <div class="add">
+              <h1 class="m-2 py-3 text-center"> TODO List With local Storage</h1>
+            <div class="input-group mb-5 mt-5 input-group-lg">
+                <input type="text" class="form-control" id="input" placeholder="Add task" >
+                <button class="btn btn-primary" type="button" id="adduser">Add Task</button>
+                <button class="btn btn-danger m-2" type="button" id="delall">Delete All</button>
+              </div>
+
+        </div>
+        <div class="table text-center">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Task</th>
+                    <th scope="col">Action</th>
+                    
+                  </tr>
+                </thead>
+                <tbody id="display">
+                  <!-- <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td><button class="btn btn-warning text-bold m-1">Edit</button><button class="btn btn-danger text-bold">Delete</button></td>
+                    
+                  </tr> -->
+                 
+                </tbody>
+              </table>
+
+        </div>
+        
+     </div>
+
+     <!-- Bootrstrap JS link-->
+    <script src="Js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

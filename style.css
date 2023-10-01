@@ -1,0 +1,17 @@
+
+
+body{
+   background-color:rgb(105, 150, 235);
+}
+.container{
+   
+    height: 720px;
+    background-color: white;
+    border-radius: 15px;
+     
+}
+
+.table{
+   font-size: 20px;
+}
+
